@@ -1,0 +1,61 @@
+.navbar{
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 5px gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.titulo{
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.iconos{
+    border: 2px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    width: 20px;
+    box-shadow: 2px 3px gray;
+}
+.cajaIconos{
+    display: flex;
+    flex-direction: row;
+}
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+}
+.cajaTextoImagen{
+    display: flex;
+    flex-direction: row;
+}
+.Imag1{
+    width: 35%;
+    margin: 15px;
+    border-radius: 15px;
+}
+.cajaTexto{
+    margin: 15px;
+    width: 65%;
+}
+.titulo2{
+    text-align: center;
+}
+.cajaImag{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20%;
+    background-color: beige;
+    border: 2px solid gray;
+}
+.ImagenesSerie{
+    width: 30%;
+    height: 30%;
+    border-radius: 15px;
+    margin: 20px;
+}
